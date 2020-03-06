@@ -6,8 +6,6 @@ require 'directors_database'
 def gross_for_director(director_data)
 
   director_index = 0
-
-  while director_index < nds.length
     director_name = nds[director_index][:name]
     movie_index = 0
 
@@ -18,8 +16,6 @@ def gross_for_director(director_data)
 
       movie_index += 1
     end
-    director_index += 1
-end
   individual_gross
 end
 
