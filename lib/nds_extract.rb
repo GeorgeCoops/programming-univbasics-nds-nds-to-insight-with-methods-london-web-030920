@@ -5,14 +5,12 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
 
-  director_index = 0
-    director_name = nds[director_index][:name]
     movie_index = 0
 
-  while movie_index < nds[director_index][:movies].length do
+  while movie_index < director_data[:movies].length do
       individual_gross = 0
 
-      individual_gross += nds[director_index][:movies][movie_index][:worldwide_gross]
+      individual_gross += director_data[:movies][movie_index][:worldwide_gross]
 
       movie_index += 1
     end
