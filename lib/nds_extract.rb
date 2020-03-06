@@ -13,7 +13,7 @@ def gross_for_director(director_data)
       director_name = nds[director_index][:name]
       movie_index = 0
       result[director_name] =  0
-      
+
     while movie_index < nds[director_index][:movies].length do
         individual_gross = 0
 
