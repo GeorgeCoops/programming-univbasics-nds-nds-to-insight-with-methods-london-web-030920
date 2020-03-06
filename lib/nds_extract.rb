@@ -15,9 +15,7 @@ def gross_for_director(director_data)
 
       movie_index += 1
     end
-    director_index += 1
-end
-  result
+  individual_gross 
 end
 
 # Write a method that, given an NDS creates a new Hash
