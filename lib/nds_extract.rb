@@ -5,8 +5,6 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
 
-  grand_total = 0
-
   director_index = 0
 
   while director_index < nds.length
@@ -22,7 +20,7 @@ def gross_for_director(director_data)
     end
     director_index += 1
 end
-  grand_total
+  individual_gross
 end
 
 # Write a method that, given an NDS creates a new Hash
