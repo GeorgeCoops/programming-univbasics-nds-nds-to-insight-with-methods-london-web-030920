@@ -10,7 +10,7 @@ movie_index = 0
 individual_gross = 0
 
   while movie_index < director_data[:movies].length do
-    
+
       individual_gross += director_data[:movies][movie_index][:worldwide_gross]
 
       movie_index += 1
