@@ -30,7 +30,7 @@ def directors_totals(nds)
     director_name = nds[director_index][:name]
     movie_index = 0
 
-    result[director_name] =  gross_for_director(nds[director_index]
+    result[director_name] =  gross_for_director(nds[director_index])
 
     director_index += 1
 end
